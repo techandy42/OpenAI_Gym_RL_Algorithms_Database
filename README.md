@@ -142,5 +142,8 @@ Model Dependency:
 Actor + Target Q Networks (discounted reward) -> Q Networks; Q Network No.1 (delayed for stability) -> Actor; Q Networks (update) -> Target Q Networks
 ```
 ```
-Note: Noise filter is used in the implementation to stablise training
+Note 1: Delayed Actor update is used to stablise training
+```
+```
+Note 2: Noise filter is used in the implementation to stablise training
 ```
